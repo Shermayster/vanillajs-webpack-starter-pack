@@ -4,6 +4,7 @@
   "description": "Starter pack for vanilla es6+ development",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "test"
   },
   "keywords": [
@@ -17,5 +18,8 @@
     "js"
   ],
   "author": "Pavel Shermayster",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  }
 }

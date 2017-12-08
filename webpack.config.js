@@ -2,7 +2,7 @@ module.exports = {
     entry: './src/app.js',
     devtool: 'inline-source-map',
     output: {
-        filename: "bundle.js"
+        filename: 'bundle.js',
     },
     module: {
         rules: [
@@ -12,13 +12,13 @@ module.exports = {
             use: {
               loader: 'babel-loader',
               options: {
-                presets: ['@babel/preset-env']
-              }
-            }
-          }
-        ]
+                presets: ['@babel/preset-env' ],
+              },
+            },
+          },
+        ],
       },
-	resolve: {
-		extensions: ['.js', '.es6']
-	}
-}
+resolve: {
+  extensions: ['.js', '.es6'],
+},
+};

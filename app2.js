@@ -1,1 +1,6 @@
-console.log('test2 ');
+
+const hi = () => {
+    console.log('test 2');
+}
+
+hi();

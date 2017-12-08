@@ -1,0 +1,21 @@
+{
+  "name": "vanillajs-webpack-starter-pack",
+  "version": "1.0.0",
+  "description": "Starter pack for vanilla es6+ development",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "es",
+    "6",
+    "webpack",
+    "karma",
+    "jasmine",
+    "vanilla",
+    "js",
+    "js"
+  ],
+  "author": "Pavel Shermayster",
+  "license": "MIT"
+}

@@ -4,7 +4,7 @@
   "description": "Starter pack for vanilla es6+ development",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack-dev-server",
     "test": "test"
   },
   "keywords": [
@@ -20,6 +20,12 @@
   "author": "Pavel Shermayster",
   "license": "MIT",
   "devDependencies": {
-    "webpack": "^3.10.0"
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.12.1",
+    "eslint-config-google": "^0.9.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
   }
 }

@@ -1,11 +1,8 @@
 module.exports = {
-    "extends": "google",
+    "parser": "babel-eslint",
     "parserOptions": {
-        "ecmaVersion": 6,
-        "sourceType": "module",
-        "ecmaFeatures": {
-            "modules": true,
-            "experimentalObjectRestSpread": true
-        }
+      "sourceType": "module",
+      "allowImportExportEverywhere": false,
+      "codeFrame": false
     }
 };

@@ -1,4 +1,5 @@
+import Test2 from './app2';
 
-
-console.log('test');
+const t2 = new Test2();
+t2.hello();
 

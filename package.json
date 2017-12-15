@@ -33,11 +33,6 @@
     "eslint": "3.x",
     "eslint-config-google": "^0.9.1",
     "eslint-plugin-es6-recommended": "^0.1.2",
-    "jasmine-core": "^2.8.0",
-    "karma": "^1.7.1",
-    "karma-chrome-launcher": "^2.2.0",
-    "karma-jasmine": "^1.1.1",
-    "karma-webpack": "^2.0.6",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.9.7"
   }
